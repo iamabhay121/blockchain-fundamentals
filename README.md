@@ -1,16 +1,127 @@
-# React + Vite
+# Blockchain Fundamentals
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive web-based documentation viewer for learning blockchain development, focusing on Hedera, Ethereum, and Solidity.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Deployed Application:** [https://blockchain-fundamentals.vercel.app/](https://blockchain-fundamentals.vercel.app/)
 
-## React Compiler
+## 📚 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This application provides an interactive interface to explore blockchain learning materials, including:
 
-## Expanding the ESLint configuration
+- **Documentation**: Core concepts covering blockchain basics, cryptography, consensus mechanisms, tokens, wallets, and platform-specific guides
+- **Code Examples**: Working code snippets for Hedera, Ethereum, and Solidity development
+- **Resources**: Curated links, tools, and faucets for blockchain development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (>=18.0.0)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd blockchain-fundamentals
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+blockchain-fundamentals/
+├── public/
+│   ├── docs/              # Markdown documentation files
+│   ├── code-examples/     # Code examples (Hedera, Ethereum, Solidity)
+│   ├── resources/         # Resource markdown files
+│   ├── blockchainlogo.png
+│   ├── README.md
+│   └── LEARNING_PATH.md
+├── src/
+│   ├── components/        # React components
+│   │   ├── Sidebar.jsx    # Navigation sidebar
+│   │   ├── MarkdownViewer.jsx
+│   │   └── CodeViewer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── *.css
+├── package.json
+└── vite.config.js
+```
+
+## 🛠️ Technologies
+
+- **React** - UI framework
+- **Vite** - Build tool and dev server
+- **react-markdown** - Markdown rendering
+- **react-syntax-highlighter** - Code syntax highlighting
+- **remark-gfm** - GitHub Flavored Markdown support
+
+## 📖 Features
+
+- 📄 Interactive markdown documentation viewer
+- 💻 Syntax-highlighted code examples
+- 🎨 Clean, modern UI with collapsible sidebar
+- 🔍 Easy navigation through documentation and code examples
+- 📱 Responsive design
+
+## 📝 Content
+
+The application includes comprehensive documentation on:
+
+- Blockchain fundamentals
+- Cryptography basics
+- Consensus mechanisms
+- Tokens and wallets
+- Hedera Hashgraph platform
+- Ethereum platform
+- Solidity smart contract development
+- Advanced topics (Nonce, Merkle Trees)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+See the LICENSE file for details.
+
+## 👤 Author
+
+**Abhay Agarwal**
+
+- LinkedIn: [iamabhayagarwal](https://www.linkedin.com/in/iamabhayagarwal/)
+- GitHub: [iamabhay121](https://github.com/iamabhay121)
+
+---
+
+Built with ❤️ using React and Vite
