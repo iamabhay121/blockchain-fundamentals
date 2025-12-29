@@ -165,8 +165,11 @@
 .markdown-viewer pre code {
   background-color: transparent;
   padding: 0;
-  color: inherit;
+  color: #e0e0e0;
   font-size: 0.9rem;
+  font-family: 'Courier New', 'Monaco', 'Menlo', 'Consolas', monospace;
+  line-height: 1.6;
+  white-space: pre;
 }
 
 .markdown-viewer blockquote {
